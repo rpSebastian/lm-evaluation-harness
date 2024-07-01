@@ -166,7 +166,7 @@ def acc_mutual_info_fn(items):  # This is a passthrough function
     return items
 
 
-exact_match = hf_evaluate.load("exact_match")
+exact_match = hf_evaluate.load("/data1/xuhang/hf_hub/exact_match")
 
 
 @register_metric(
